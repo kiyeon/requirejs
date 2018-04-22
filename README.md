@@ -5,3 +5,6 @@
 
 ## Live Server
 `$ live-server`
+
+## References
+* [RequreJS 사용 방법 정리](http://programmingsummaries.tistory.com/204)
