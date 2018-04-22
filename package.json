@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ansi": "^0.3.1"
+  }
+}

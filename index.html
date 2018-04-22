@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RequireJS Sample Code</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="hello"></div>
+
+<script src="js/vendor/requirejs/require.js"></script>
+<script src="js/vendor/requirejs/requirerc.js"></script>
+<script>
+require(["common", "utils"], function(common, u) {
+    common.helloWorld();
+
+    console.log(u.nvl("aldflajdfaf"));
+});
+</script>
+</body>
+</html>
